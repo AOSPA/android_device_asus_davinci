@@ -74,7 +74,7 @@ DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/manifest.xml
 
 DEVICE_MATRIX_FILE += \
-    device/qcom/common/compatibility_matrix.xml
+    device/qcom/vendor-common/compatibility_matrix.xml
 
 # Hacks
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2231f01a_a8113e48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-02-13T05:30:32Z",
+      "side": 1,
+      "message": "you pull in all components, why not just drop it? it should already be done via https://gerrit.aospa.co/c/AOSPA/android_device_qcom_common/+/24623",
+      "revId": "13c9c1a0e8910b2e12e4117db2c6c1cce2c13ce9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}

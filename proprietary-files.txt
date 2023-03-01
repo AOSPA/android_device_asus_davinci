@@ -198,6 +198,10 @@ vendor/firmware/a730_zap.mbn
 vendor/firmware/a730_zap.mdt
 vendor/firmware/gmu_gen70000.bin
 
+# Ambient streaming
+product/etc/sysconfig/cross_device_services.xml
+-product/priv-app/CrossDeviceServicesStub/CrossDeviceServicesStub.apk
+
 # Audio
 vendor/bin/agmcap
 vendor/bin/agmcompressplay

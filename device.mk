@@ -197,6 +197,21 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-V1-ndk_platform.vendor
 
+# Spatial Audio
+PRODUCT_PACKAGES += \
+    libspatialaudio
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.audio.spatializer_enabled=true
+    audio.spatializer.effect.util_clamp_min=300
+
+# Opus
+PRODUCT_PACKAGES += \
+    libopus
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.bluetooth.opus.enabled=true
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget_Vendor \

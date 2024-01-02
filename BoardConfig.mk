@@ -63,6 +63,9 @@ TARGET_BOOTLOADER_BOARD_NAME := ASUS_AI2202
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 # Display
+SOONG_CONFIG_NAMESPACES += dolby_vision
+SOONG_CONFIG_dolby_vision += enabled
+SOONG_CONFIG_dolby_vision_enabled := true
 TARGET_SCREEN_DENSITY := 440
 
 # HIDL

@@ -158,32 +158,21 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml \
+    frameworks/av/media/libstagefright/data/media_codecs_google_c2_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
 
 PRODUCT_PACKAGES += \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libOmxCore \
-    libavservices_minijail.vendor \
-    libcodec2_hidl@1.0.vendor \
+    libcodec2_hidl@1.2.vendor \
     libcodec2_vndk.vendor \
-    libgui_vendor \
-    libmm-omxcore \
-    libplatformconfig \
-    libstagefright_softomx.vendor \
+    libOmxCore \
     libstagefrighthw \
-
-PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.ccodec=4
-
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    media.settings.xml=/vendor/etc/media_profiles_taro.xml \
-    media.stagefright.thumbnail.prefer_hw_codecs=true \
-    ro.media.recorder-max-base-layer-fps=60
+    libavservices_minijail \
+    libavservices_minijail_vendor \
+    libavservices_minijail.vendor \
+    libcodec2_hidl@1.2.vendor \
+    android.hardware.media.c2@1.2.vendor
 
 # NDK
 NEED_AIDL_NDK_PLATFORM_BACKEND := true

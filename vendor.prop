@@ -56,8 +56,11 @@ persist.sys.fuse.passthrough.enable=true
 ro.incremental.enable=yes
 
 # Media
+debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
-ro.mediaserver.64b.enable=true
+debug.stagefright.ccodec=4
+debug.stagefright.omx_default_rank=0
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # RCS
 persist.vendor.rcs.singlereg.feature=1

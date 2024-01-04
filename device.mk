@@ -41,6 +41,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths.xml \
     $(LOCAL_PATH)/audio/resourcemanager_davinci.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_davinci.xml \
     $(LOCAL_PATH)/audio/usecaseKvManager_davinci.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/usecaseKvManager_davinci.xml \
+    $(LOCAL_PATH)/audio/audio_policy_configuration_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/audio_policy_configuration_AI2202.xml \
+    $(LOCAL_PATH)/audio/audio_policy_volumes_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/audio_policy_volumes_AI2202.xml \
+    $(LOCAL_PATH)/audio/default_volume_tables_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/default_volume_tables_AI2202.xml \
+    $(LOCAL_PATH)/audio/mixer_paths_DAVINCI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/mixer_paths_DAVINCI.xml \
+    $(LOCAL_PATH)/audio/resourcemanager_davinci_DAVINCI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/resourcemanager_davinci.xml \
+    $(LOCAL_PATH)/audio/usecaseKvManager_davinci_DAVINCI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/usecaseKvManager_davinci.xml \
 
 # Board
 TARGET_BOARD_PLATFORM := taro

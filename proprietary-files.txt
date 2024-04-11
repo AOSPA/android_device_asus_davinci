@@ -913,7 +913,8 @@ system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
-system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
+vendor/bin/qcc-trd
+vendor/etc/init/init.qdmastats.rc
 vendor/bin/edgnss-daemon
 vendor/bin/engine-service
 vendor/bin/garden_app
@@ -1203,13 +1204,6 @@ system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
-
-# QCC VND HAL
-vendor/bin/qcc-trd
-vendor/etc/init/init.qdmastats.rc
-vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 
 # QCV
 vendor/bin/init.qti.qcv.sh

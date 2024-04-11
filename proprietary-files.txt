@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Zenfone 9 (34.0304.2004.42). OTAs to extract from can be found
+## are from Zenfone 9 (34.0304.2004.108). OTAs to extract from can be found
 ## here: https://www.asus.com/Mobile/Phones/ZenFone/Zenfone-9/HelpDesk_Download
 
 # ADSPRPC
@@ -907,6 +907,13 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|6c55c5ef38b292b8e2a377e072f0d914d1e934cd|3b1e77c30180f626ce5990df640071e9cf8696a6
 
 # GPS
+system_ext/bin/qccsyshal@1.2-service
+system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
+system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 vendor/bin/edgnss-daemon
 vendor/bin/engine-service
 vendor/bin/garden_app
@@ -1366,13 +1373,6 @@ vendor/lib64/librpmb.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-
-# QSPM HAL
-vendor/bin/vendor.qti.qspmhal@1.0-service
-vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
-vendor/etc/seccomp_policy/qspm.policy
-vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
-vendor/lib64/vendor.qti.qspmhal@1.0.so
 
 # RemoteFS
 vendor/bin/rmt_storage

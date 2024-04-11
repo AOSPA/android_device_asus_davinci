@@ -210,7 +210,6 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget_Vendor \
-    WifiResTarget_cape \
     WifiResTarget_spf \
     Zenfone9Frameworks \
     Zenfone9SystemUI \
